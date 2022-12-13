@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\kiwi]
+"URL Protocol"=""
+@="kiwi"
+
+[HKEY_CLASSES_ROOT\kiwi\shell]
+
+[HKEY_CLASSES_ROOT\kiwi\shell\open]
+
+[HKEY_CLASSES_ROOT\kiwi\shell\open\command]
+@="%appdata%\\Senyuyun\\Client\\KiwiClient.exe \"%1\""
+
+;上方的%appdata%需要替换成具体的用户路径，例如C:\\Users\\sawyer\\AppData\\Roaming
+;如果你不清楚相关知识，请使用自动安装程序，不要手动编辑或导入注册表
