@@ -6,7 +6,7 @@ Kiwi 客户端，目前仅支持SSH的本地拉起。
 
 ### Windows
 
-下载Win安装包，双击JumpServer.msi 文件（需要等待10几秒钟）。
+下载Win安装包，双击KIWI-install.msi文件（需要等待10几秒钟）。
 
 ## 卸载
 
